@@ -75,3 +75,7 @@ const result = addNumbers(10, "20"); // This line will produce a compilation err
 - [Beginner's TypeScript](https://www.totaltypescript.com/tutorials/beginners-typescript)
 
 ---
+## More TypeScript
+- [Primitive Types and Type System Refinement](ts1.md)
+- [TypeScript advanced typing](ts2.md)
+- [Utility Types in TypeScript](ts3.md)

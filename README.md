@@ -4,6 +4,7 @@ Opintojaksolla syvennetään ja laajennetaan Web-sovelluskehitys 1 -opintojaksol
 Erityisesti opintojakson suoritettuaan opiskelijalla on käsitys avointen rajapintojen ja avoimen datan hyödyntämisen mahdollisuuksista ja tekniikoista. Hän pystyy tuottamaan avoimen rajapinnan palveluja ja toteuttamaan avoimia rajapintoja hyödyntäviä sovelluksia.
 
 ## Sisältö:
+Ks. fronttitehtävät sivun lopusta.
 ### Viikko 1 ja 2
 - [Työkalut 1](week1/tools_pt1.md)
 - [Työkalut 2](week1/tools_pt2.md)
@@ -15,7 +16,7 @@ Erityisesti opintojakson suoritettuaan opiskelijalla on käsitys avointen rajapi
 ### Viikko 2 ja 3
 - [NoSQL, MongoDB and Mongoose](week2/nosql-mongodb-mongoose.md)
 - [Platform-as-a-service](week2/cloud-computing.md)
-- [Deploy to Platform-as-a-service](week2/deploy_on_azure.md)
+- [Käyttöönotto palveluna (Platform-as-a-Service)](week2/deploy_on_azure.md)
 - [Labrat](week2/lab-assignments.md)
 - [Kotitehtävät](assignments.md#week-2)
 
@@ -33,8 +34,11 @@ Erityisesti opintojakson suoritettuaan opiskelijalla on käsitys avointen rajapi
         - [Resolving succesfully](https://www.apollographql.com/tutorials/lift-off-part4/05-resolving-a-mutation-successfully)
         - [Resolving with errors](https://www.apollographql.com/tutorials/lift-off-part4/06-resolving-a-mutation-with-errors)
 
-### Week 5
+### Viikko 5
 - [GraphQL autentikointi](./week4/grqphql-auth.md)
 - [Tietoturvasta](week4/https-hash-helmet.md)
 - [Labrat](week4/lab-assignments.md)
 - [Kotitehtävät](assignments.md)
+
+## Fronttitehtävät viikot 1-5
+Edellä olevien tehtävien lisäksi tee nämä TypeScript harjoitukset (ei tarvitse palauttaa):
