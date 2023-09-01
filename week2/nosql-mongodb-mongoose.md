@@ -68,7 +68,7 @@ __Task 1__
     {
       "animal_name" : "Jesse",
       "species" : species id from previous insert,
-      "birthdate" : ISODate("2016-11-23T00:00:00.000+0000"),
+      "birthdate" : "2016-11-23T00:00:00.000+0000",
     } 
     ```
 ---
