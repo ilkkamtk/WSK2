@@ -3,7 +3,6 @@
 ## Study before the classes
 1. [GraphQL](https://www.youtube.com/watch?v=bRnu7xvU1_Y)
 2. [Apollo server tutorial](https://www.youtube.com/watch?v=zDdNDWEAu78)
-3. [apollo-server-express](https://github.com/apollographql/apollo-server/tree/main/packages/apollo-server-express)
 
 ### Why GraphQL
 Compare
