@@ -167,6 +167,7 @@ Primitive types in TypeScript represent the basic building blocks for variables 
 
 - **Choosing the Right Approach:**
     - [Types vs Interfaces](https://www.typescriptlang.org/play#example/types-vs-interfaces)
+    - [Types over Interfaces](https://youtu.be/oiFo2z8ILNo?si=i5WpnXLfGwqL_eXG)
     - Consider your specific use case and design goals when deciding between type aliases and interfaces.
     - Strive for consistency in your codebase, using the approach that best fits the context and contributes to code
       quality.
