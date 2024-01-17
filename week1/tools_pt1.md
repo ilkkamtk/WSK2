@@ -23,7 +23,7 @@ Ultimately, it's your choice. VSCode is used by the teachers.
 
 ---
 
-## Visual Studio Code (VSCode)
+## [Visual Studio Code (VSCode)](https://code.visualstudio.com/download)
 
 - free & open source code editor by Microsoft (**!=** Visual Studio IDE)
 - wide extension support
@@ -86,32 +86,6 @@ Handy keyboard shortcuts (finnish layout, check _File -> Preferences -> Keyboard
 
 - Windows: Click on the start or search icon and type "PowerShell" in the search box
 - Mac: press command-space to open search then type 'Terminal'
-
----
-
-# Coding conventions & style guides
-
-* Coding conventions define *how* to write your code
-* Conventions are about **syntax**: naming, closures, spaces, tabs, comments
-* Conventions might also be about **semantics**: the good practices, what structures to avoid and what to prefer
-* Conventions **improve readability**
-    * Good readability, easy to understand
-    * More efficient / faster to write and refactor
-    * A team (in a company) follows a certain **style guide**
-    * Style guide defines one way to write the code
-* For programming languages allowing much variance, **conventions are important**
-    * Javascript, Python (!)
-* **Coding conventions enhance good coding practices**
-
----
-
-# Style guides for Javascript
-
-* [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript) ([ES5](https://github.com/airbnb/javascript/tree/es5-deprecated/es5))
-* [Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html) ([ES5](https://google.github.io/styleguide/javascriptguide.xml))
-* [Awesome JS style guides](https://github.com/kciter/awesome-style-guide#javascript)
-
----
 
 ## Formatting and Linting
 
@@ -211,7 +185,6 @@ code analysis and identifying potential issues.
       bracketSpacing: false,
       singleQuote: true,
       trailingComma: 'es5',
-      arrowParens: 'avoid',
     };
     ```
 
@@ -235,16 +208,16 @@ code analysis and identifying potential issues.
 2. Create new folder. Open your terminal to that folder. Run `npm init -y`
 3. Run ESLint configuration: `npm init @eslint/config`
 4. Answers to questions in order:
-   - How would you like to use ESLint? **To check syntax, find problems, and enforce code style**
-   - What type of modules does your project use? **JavaScript modules (import/export)**
-   - Which framework does your project use? **None of these**
-   - Does your project use TypeScript? **No**
-   - Where does your code run? **Browser**
-   - How would you like to define a style for your project? **Use a popular style guide**
-   - Which style guide do you want to follow? **Google: https://github.com/google/eslint-config-google**
-   - What format do you want your config file to be in? **JavaScript**
-   - Would you like to install them now? **Yes**
-   - Which package manager do you want to use? **npm**
+    - How would you like to use ESLint? **To check syntax, find problems, and enforce code style**
+    - What type of modules does your project use? **JavaScript modules (import/export)**
+    - Which framework does your project use? **None of these**
+    - Does your project use TypeScript? **No**
+    - Where does your code run? **Browser**
+    - How would you like to define a style for your project? **Use a popular style guide**
+    - Which style guide do you want to follow? **Google: https://github.com/google/eslint-config-google**
+    - What format do you want your config file to be in? **JavaScript**
+    - Would you like to install them now? **Yes**
+    - Which package manager do you want to use? **npm**
 5. Install Prettier plugin for ESLint: `npm i -D eslint-plugin-prettier eslint-config-prettier`
 6. You should have new file `.eslintrc.js`. Modify _extends_ and _rules_ properties:
    ```javascript
@@ -259,9 +232,9 @@ code analysis and identifying potential issues.
 7. Write `.editorconfig` and `.prettierrc.js` files according to the examples earlier in this page.
 8. Open the settings in Visual Studio Code by clicking on "File" -> "Preferences" -> "Settings" or using the shortcut Ctrl + ,.
 9. In the search bar, type "Format On Save" and check the box to enable it. This ensures that your code will be automatically formatted when you save the file.
-   - If you are using Webstorm, enable ESLint in your WebStrom project
-   - [Instructions](https://www.jetbrains.com/help/webstorm/eslint.html)
-       - [Importing code style](https://www.jetbrains.com/help/webstorm/eslint.html#ws_js_linters_eslint_import_code_style_from_eslint) is the most interesting part
+    - If you are using Webstorm, enable ESLint in your WebStrom project
+    - [Instructions](https://www.jetbrains.com/help/webstorm/eslint.html)
+        - [Importing code style](https://www.jetbrains.com/help/webstorm/eslint.html#ws_js_linters_eslint_import_code_style_from_eslint) is the most interesting part
 10. Write new JavaScript file `main.js`:
     ```javascript
     function greeting () 
@@ -295,7 +268,7 @@ code analysis and identifying potential issues.
 14. Write `.gitignore` file:
     ```gitignore
     .vscode
-../.ideaidea
+    .idea
     node_modules
     .DS_Store
     ```
@@ -303,7 +276,7 @@ code analysis and identifying potential issues.
 16. [Set the repository to be a template repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-template-repository)
 17. Now you can easily make new JavaScript projects with the same settings with ´Use this template/Create a new repository`.
     - After creating a new repository get the files to your local computer by cloning the new repository: `git clone https://address/to/repository.git`
-       - You can easily get the address to the repository from the `<> Code` button in GitHub
+        - You can easily get the address to the repository from the `<> Code` button in GitHub
     - [Here is the teacher's version](https://github.com/ilkkamtk/javascript-starter)
 
 
