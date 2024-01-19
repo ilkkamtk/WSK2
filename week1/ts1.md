@@ -257,7 +257,7 @@ Primitive types in TypeScript represent the basic building blocks for variables 
    const myImage = document.querySelector('img') as HTMLImageElement | null;
    
    // Warning: Ensure that myImage is not null before using the non-null assertion operator (!)
-   mySelect!.addEventListener('click', () => {
+   myImage!.addEventListener('click', () => {
       // do something
    });
    ```
