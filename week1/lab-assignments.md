@@ -18,3 +18,6 @@ käyttäjä: Oma-tunnus
 salasana: juuri_luomasi_salasana
 tietokanta: Oma-tunnus
 host: mysql.metropolia.fi
+
+### SSH Tunneli (vaihtoehtoinen)
+- Jos et halua käyttää VPN:ää, voit käyttää [SSH tunnelia](tunneling.md).
