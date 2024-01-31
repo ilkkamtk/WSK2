@@ -16,8 +16,8 @@
 - Install Azure extensions to VSCode
   - Azure Account
   - Azure App Service
-  - Azure Databases
-  - Azure Resources
+  - (Azure Databases)
+  - (Azure Resources)
 
 
 - Video about deploying TypeScript app: 
