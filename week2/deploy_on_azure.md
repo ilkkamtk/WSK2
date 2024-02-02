@@ -40,7 +40,7 @@ The same in text:
 1. Create MongoDB on Azure Cosmos DB
    - Choose serverless option
 2. Create Web App in App Services
-   - Node 18
+   - Node 20
    - Select B1 plan to enable CD
    - Connect App to your GitHib repo
 3. Add environment variables DATABASE_URL and NODE_ENV in configuration
