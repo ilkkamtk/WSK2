@@ -23,8 +23,7 @@
   - Aloita lataamalla [aloitustiedostot](https://github.com/ilkkamtk/SSSF-week3-starter)
   - Käynnistä sovellus: `npm run dev`
   - Olet valmis, kun sovelluksesi läpäisee kaikki testit: `npm run test`
-  - Vie sovellus Azureen ja tietokanta MongoDB Atlakseen (maantieteelliset kyselyt toimivat Atlaksessa).
-  - Palauta Omaan linkit Git-repositorioon ja Azuressa olevaan sovellukseen.
+  - Ei palautusta vielä. Jatkuu viikolla 5.
 - Luo product backlog projektillesi. Palauta Omaan.
 
 ### Viikko 5
