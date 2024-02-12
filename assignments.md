@@ -20,19 +20,18 @@
 
 ### Viikko 4
 - Muunna viime viikon harjoitus Rest API:sta GraphQL API:ksi.
-  - Aloita lataamalla [aloitustiedostot](https://github.com/ilkkamtk/SSSF-week3-starter)
-  - Käynnistä sovellus: `npm run dev`
-  - Olet valmis, kun sovelluksesi läpäisee kaikki testit: `npm run test`
+  - Aloita lataamalla [aloitustiedostot](https://github.com/ilkkamtk/SSSF-week4-5-starter)
   - Ei palautusta vielä. Jatkuu viikolla 5.
 - Luo product backlog projektillesi. Palauta Omaan.
 
 ### Viikko 5
 - Jatka viime viikon harjoitusta. Lisää käyttäjävarmennus. Kaikki muutokset (mutations) tulisi olla sallittuja ainoastaan kirjautuneille käyttäjille.
-  - Aloita lataamalla [aloitustiedostot](https://github.com/ilkkamtk/SSSF-week4-5-starter)
+  - Aloitustiedostot viime viikolta.
   - Käynnistä sovellus: `npm run dev`
   - Olet valmis, kun sovelluksesi läpäisee kaikki testit: `npm run test`
   - Julkaise kaikki kolme palvelinta Azuressa ja MongoDB Atlaksessa (tai vast.)
     - Kun julkaiset, voit poistaa testit käytöstä (esimerkiksi kommentoimalla ne).
     - Testit tulee läpäistä kuitenkin paikallisesti omalla koneella.
+    - Rate limiting ei ole pakollinen, sen voi kommentoida testitiedostosta pois.
   - Palauta Omaan linkit Git-repositorioihin ja Azuressa olevaan sovellukseen.
 - Luo projektin prototyyppi. Palauta Omaan.
