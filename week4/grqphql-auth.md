@@ -4,7 +4,7 @@
 
 #### Distributed authentication with JSON Web Tokens
 - [JWT](https://jwt.io/introduction)
-- Download starter files: [GraphQL server](https://github.com/ilkkamtk/SSSF-graphql-auth-starter), [Auth server](https://github.com/ilkkamtk/SSSF-auth-server-starter), [Upload server](https://github.com/ilkkamtk/SSSF-upload-server-starter)
+- Download starter files: [Auth server](https://github.com/ilkkamtk/SSSF-auth-server-starter), [Upload server](https://github.com/ilkkamtk/SSSF-upload-server-starter). Use GraphQL server from previous labs.
 
 #### Rate limiting
 - [What is rate limiting](https://blog.logrocket.com/rate-limiting-node-js/)
